@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav h4:hover{
+    color: blue;
+    border-bottom: 2px solid black;
+}
+
+nav i { 
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+}
+
+.centre{
+    padding: 10px 40px;
+}
+
+.centre_btm{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.centre h2{
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.centre_btm p {
+    width: 30%;
+    line-height: 22px;
+}
+
+.right{
+   width: 30%;
+
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+   
+    
+}
+
+.elem h3{
+    line-height: 60px;
+    color: black;
+    text-decoration: none;
+    
+ 
+}
+
+.elem a  {
+    text-decoration: none;
+}
+
+.elem i {
+    display: none;
+}
+
+.elem:hover i{
+    display: inline;
+}
+
+.elem:hover a { 
+    text-decoration: underline;
+}
+
+.l{
+    width: 100%;
+   height: 40vh;
+   background:url(https://images.unsplash.com/photo-1550332781-aecd27f7434f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: 0% 25%;
+}
+
+
+
+
+
+
+
+
